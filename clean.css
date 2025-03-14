@@ -7,14 +7,17 @@
   color: black;
   height: 30px;
 }
+
 .links {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
 }
+
 a {
   color: black;
 }
+
 .menu {
   display: none;
 }
@@ -23,10 +26,12 @@ a {
   .links {
     display: none;
   }
+
   .menu {
     display: block;
   }
 }
+
 .blog_container {
   background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
   background-repeat: no-repeat;
@@ -39,6 +44,7 @@ a {
   align-items: center;
   position: relative;
 }
+
 .metn {
   width: 20%;
   /* padding: 35% auto; */
@@ -49,22 +55,50 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 h1 {
   font-size: 40px;
-  
+
 }
+
 .overlay {
   width: 100%;
-  height: 57.5vh;
+  height: 60vh;
   background-color: black;
   position: absolute;
   top: 0px;
   left: 0;
   opacity: 0.5;
 }
-h2{
+
+h2 {
   text-align: center;
 }
-p{
+
+p {
   text-align: center;
+}
+
+.box {
+  border: 20px;
+  padding: 10px;
+  margin: 2px;
+  background-color: #0085A1;
+  position: absolute;
+  left: 1000px;
+
+}
+
+.sosial_sebekeler {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .blog_container {
+    background-color: lightblue;
+  }
 }

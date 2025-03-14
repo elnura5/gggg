@@ -1,13 +1,16 @@
-li{
-    list-style-type:none;
+li {
+    list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-*{
-    margin:0px;
-    padding:0px;
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
-.content{
+
+.content {
     background-color: none;
 }
